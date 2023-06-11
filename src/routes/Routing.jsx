@@ -6,7 +6,7 @@ import Login from './../pages/Login';
 import Signup from './../pages/Signup';
 import Checkout from './../pages/Checkout';
 import ProtectedRoute from "./ProtectedRoute";
-import Games from "../pages/games";
+import Games from "./../pages/Games"
 
 const Routing = () => {
   return (

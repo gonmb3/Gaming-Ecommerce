@@ -56,10 +56,12 @@ const Games = () => {
 
   return (
     <Helmet title={"Productos"}>
-      <CommonSection/>      {/* COMMONSECTION COMPONENT */}
+    {/* COMMONSECTION COMPONENT */}
+      <CommonSection/>      
       <section>
       <Container>
           <Row>
+            {/* SELECT CATEGORY GAMES*/}
                 <Col lg="8" md="6">             
                 <select name="" className="filter__container mb-3" onChange={handleFilter}>
                       <option>Filtrar por Categoria</option>
