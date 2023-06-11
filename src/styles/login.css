@@ -1,0 +1,31 @@
+.auth__form{
+    padding: 40px;
+    border-radius: 6px;  
+}
+.bg-login-sign-in{
+    background:  linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.6)),url("../assets/img/bg-login-signin.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 200px;   
+    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.login__btn{
+    background-color: #fff;
+    color: #000000;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.p__text{
+    color: #ffffff;
+   
+}
+
+.p__text a{
+    color: var(--link-color)!important;
+}
