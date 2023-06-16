@@ -3,6 +3,7 @@ import ProductCard from './ProductCard';
 
 const ProductsList = ({data}) => {
 
+  //scroll top 0
   useEffect(() => {
     window.scrollTo(0,0)
   },[])

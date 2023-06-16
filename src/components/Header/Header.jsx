@@ -39,12 +39,11 @@ const Header = () => {
     
     const headerRef = useRef(null)
     const menuRef = useRef(null)
+
     const { currentUser } = useAuth();
-    
     const navigate = useNavigate()
 
     const profileActionsRef = useRef(null)
-
 
 
     /*HEADER SCROLL EFFECT*/

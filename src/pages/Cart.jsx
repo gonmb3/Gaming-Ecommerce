@@ -3,10 +3,12 @@ import Helmet from './../components/Helmet/Helmet';
 import CommonSection from './../components/commonSection/CommonSection';
 import { Col, Container, Row } from 'reactstrap';
 import {BsTrash} from "react-icons/bs"
-import "../styles/cart.css"
+
 import { useDispatch, useSelector } from 'react-redux';
 import {deleteItem} from "../redux/slices/cartSlice"
 import { Link } from 'react-router-dom';
+
+import "../styles/cart.css"
 
 const Cart = () => {
 
@@ -24,10 +26,10 @@ const Cart = () => {
 
           <Container className='my-5 py-5'>
             <Row>
-                <Col lg="9" >
+                <Col lg="9" className=' ' >
 
                         {
-                          cartItems.length === 0 ? <h2 className='text-center fw-bold text-white'> No hay Productos en tu Carrito </h2> 
+                          cartItems.length === 0 ? <h2 className='text-center fw-bold text-white py-5'> No hay Productos en tu Carrito </h2> 
                           : (
                              <table className="table bordered text-white">
                         <thead>
