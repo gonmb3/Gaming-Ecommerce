@@ -61,7 +61,7 @@ const Signup = () => {
                 <h5 className="fw-bold text-white">Cargando...</h5>{" "}
               </Col>
             ) : (
-              <Col lg="6" className="m-auto text-center ">
+              <Col lg="6" className="m-auto text-center h-full">
                    {/* BANNER IMG */ }
                 <div className="bg-login-sign-in"></div>
 

@@ -123,7 +123,7 @@
     left: 0;
     right: 0;
     z-index: 999;
-    background: rgb(44, 46, 45);
+    background: #0d0f36;
 
 }
 
@@ -144,7 +144,7 @@
         right: 0;
         width: 250px;
         height: 100%;
-        background-color: rgb(44, 46, 45);
+        background-color: #0a0b27;
         z-index: 99;
         flex-direction: column;
         align-items: center;

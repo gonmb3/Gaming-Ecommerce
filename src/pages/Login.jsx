@@ -39,14 +39,14 @@ const Login = () => {
   return (
     <Helmet title={"Login"}>
       <section>
-        <Container >
+        <Container>
           <Row>
             {loading ? (
               <Col className="text-center w-full h-full m-auto text-white ">
                 <h5 className="fw-bold">Cargando...</h5>
               </Col>
             ) : (
-              <Col lg="6" className="m-auto text-center ">
+              <Col lg="6" className="m-auto text-center h-full">
 
                   {/* BANNER IMG */ }
                 <div className="bg-login-sign-in"></div>

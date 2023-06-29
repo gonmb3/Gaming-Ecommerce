@@ -14,7 +14,7 @@
   }
 
   body{
-    background-color: #000000!important;
+    background-color: #0a0b27!important;
     overflow-x: hidden;
   }
 
@@ -47,6 +47,7 @@ section{
     letter-spacing: 2px;
     margin-bottom: 22px;
     text-transform: uppercase;
+    padding: 28px 0;
 }
 
 .h-full{
