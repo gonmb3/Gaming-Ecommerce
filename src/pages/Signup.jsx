@@ -57,13 +57,13 @@ const Signup = () => {
         <Container>
           <Row>
             {loading ? (
-              <Col className="text-center w-full h-full m-auto text-white">
+              <Col className="text-center w-full h-full m-auto  text-white">
                 <h5 className="fw-bold text-white">Cargando...</h5>{" "}
               </Col>
             ) : (
               <Col lg="6" className="m-auto text-center h-full">
-                   {/* BANNER IMG */ }
-                <div className="bg-login-sign-in"></div>
+       
+              
 
                 <h3 className="fw-bold fs-4 mb-1 text-white text-uppercase">
                   Registrate

@@ -48,8 +48,7 @@ const Login = () => {
             ) : (
               <Col lg="6" className="m-auto text-center h-full">
 
-                  {/* BANNER IMG */ }
-                <div className="bg-login-sign-in"></div>
+      
 
                 <h3 className="fw-bold fs-4 mb-1 text-uppercase text-white">
                   Iniciar Sesión
