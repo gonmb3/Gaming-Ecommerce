@@ -30,7 +30,7 @@ const Login = () => {
       navigate("/inicio");
       setLoading(false);
     } catch (error) {
-      toast.success("Algo Salio Mal!");
+      toast.error("Algo Salio Mal!");
       setLoading(false);
       console.log(error);
     }
